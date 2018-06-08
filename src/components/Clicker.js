@@ -24,7 +24,7 @@ class Clicker extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container w-50">
         <div className="clicker border border-secondary rounded">
           <div className="clicker-display d-flex align-items-center bg-light text-secondary">
             <div className="mx-auto display-1">{this.state.count}</div>
